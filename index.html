@@ -304,7 +304,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/10/08/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+            <a href="/2020/10/08/hello-world/" class="post-title-link" itemprop="url">Hello World--hexo 博客搭建笔记</a>
         </h2>
 
         <div class="post-meta">
@@ -321,7 +321,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-10-09 09:25:46" itemprop="dateModified" datetime="2020-10-09T09:25:46+08:00">2020-10-09</time>
+                <time title="修改时间：2020-10-29 12:51:22" itemprop="dateModified" datetime="2020-10-29T12:51:22+08:00">2020-10-29</time>
               </span>
 
           
@@ -335,15 +335,20 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/10/08/hello-world/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <a id="more"></a>
+
+<h2 id="安装基本环境"><a href="#安装基本环境" class="headerlink" title="安装基本环境"></a>安装基本环境</h2><ol>
+<li><p>下载 <a target="_blank" rel="noopener" href="http://nodejs.cn/download">Node.js</a> 和 <a href="">git</a> 并安装。</p>
+</li>
+<li><p>更改 <code>npm</code> 源并安装 <code>cnpm</code>。<br><code>npm i -g cnpm --registry=https://registry.npm.taobao.org</code></p>
+</li>
+<li><p>接下来利用 <code>cnpm</code> 安装 hexo<br><code>cnpm install -g  hexo-cli</code><br>并用<code>hexo -v</code>验证安装情况。</p>
+</li>
+<li><p>建立一个文件夹，以<code>blog</code>为例。进入<code>blog</code> ，并用 <code>hexo init</code> 初始化。</p>
+</li>
+</ol>
+<h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><p><code>hexo -n &lt;name&gt;</code> 新建文件<br><code>hexo s</code> 启动服务器。默认情况下，访问网址为：<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a><br><code>hexo generate</code> 生成静态文件<br> <code>hexo d</code> 发布</p>
+<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2>
       
     </div>
 
